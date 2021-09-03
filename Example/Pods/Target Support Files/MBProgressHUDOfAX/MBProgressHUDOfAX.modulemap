@@ -1,0 +1,6 @@
+framework module MBProgressHUDOfAX {
+  umbrella header "MBProgressHUDOfAX-umbrella.h"
+
+  export *
+  module * { export * }
+}

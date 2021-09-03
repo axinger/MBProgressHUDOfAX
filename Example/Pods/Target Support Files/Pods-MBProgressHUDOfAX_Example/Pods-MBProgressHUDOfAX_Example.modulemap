@@ -1,0 +1,6 @@
+framework module Pods_MBProgressHUDOfAX_Example {
+  umbrella header "Pods-MBProgressHUDOfAX_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

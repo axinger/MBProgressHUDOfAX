@@ -11,32 +11,38 @@
 
 @implementation MBProgressHUD (OfAX)
 
-
 #pragma mark setup
 /**
  * 新版本中,控制菊花的颜色用 在AppDelegate中用  [UIActivityIndicatorView appearanceWhenContainedIn:[MBProgressHUD class], nil].color = [UIColor redColor];
  */
-+ (MBProgressHUD *)ax_setupMBProgressHUDInView:(UIView *)view text:(NSString *)text {
++ (MBProgressHUD *)ax_setupMBProgressHUDInView:(UIView *)view title:(NSString *)title details:(NSString *)details{
     if (view == nil) {
         view = OfAXHelper.currentViewController.view;
     }
-    
     // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    
+    hud.label.text = title;
+    hud.label.numberOfLines = 0;
+    hud.label.textColor =  UIColor.whiteColor;
+    
+    hud.detailsLabel.text = details;
+    hud.detailsLabel.numberOfLines = 0;
+    hud.detailsLabel.textColor = UIColor.whiteColor;
+    
+    //下面的2行代码必须要写，如果不写就会导致指示器的背景永远都会有一层透明度为0.5的背景
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.color = UIColor.lightGrayColor;
+    
     /// 大的背景色,默认透明
     //    hud.backgroundView.color = [[UIColor blackColor] colorWithAlphaComponent:0.3];
     //    hud.backgroundView.blurEffectStyle = UIBlurEffectStyleDark;
     //    hud.backgroundView.style = MBProgressHUDBackgroundStyleSolidColor;
     
-    hud.label.text = text;
-    hud.label.numberOfLines = 0;
-    //下面的2行代码必须要写，如果不写就会导致指示器的背景永远都会有一层透明度为0.5的背景
-    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
-    hud.bezelView.color = [[UIColor grayColor] colorWithAlphaComponent:0.618];
     
     //    hud.bezelView.backgroundColor = [UIColor orangeColor];
     //    hud.bezelView.style = MBProgressHUDBackgroundStyleBlur;
-    hud.label.textColor =  [UIColor whiteColor];
+    
     //    hud.detailsLabel.textColor =  [UIColor whiteColor];
     //    hud.detailsLabel.text = @"detailsLabel";
     //    [hud.button setTitle:@"button" forState:UIControlStateNormal];
@@ -52,14 +58,18 @@
     return hud;
 }
 
-#pragma mark 显示信息
-
-+ (void)ax_show:(NSString *)text customView:(UIView *)customView {
-    [self ax_show:text customView:customView view:nil];
++ (MBProgressHUD *)ax_setupMBProgressHUDInView:(UIView *)view title:(NSString *)title {
+    return [self ax_setupMBProgressHUDInView:view title:title details:nil];
 }
 
-+ (void)ax_show:(NSString *)text customView:(UIView *)customView view:(UIView *)view {
-    MBProgressHUD *hud = [self ax_setupMBProgressHUDInView:view text:text];
+#pragma mark 显示信息
+
++ (void)ax_show:(NSString *)title customView:(UIView *)customView {
+    [self ax_show:title customView:customView view:nil];
+}
+
++ (void)ax_show:(NSString *)title customView:(UIView *)customView view:(UIView *)view {
+    MBProgressHUD *hud = [self ax_setupMBProgressHUDInView:view title:title];
     // 设置图片
     hud.customView = customView;
     // 再设置模式
@@ -73,11 +83,15 @@
     [self ax_show:text customView:imageView view:view];
 }
 
-+ (void)ax_show:(NSString *)text icon:(NSString *)icon  iconColor:(UIColor *)iconColor view:(UIView *)view {
-    UIImage *image = [OfAXHelper imageNamed:icon];
-    if (@available(iOS 13.0, *)) {
-        if (iconColor) {
-            image = [image imageWithTintColor:iconColor];
++ (void)ax_show:(NSString *)text icon:(NSString *)icon iconColor:(UIColor *)iconColor view:(UIView *)view {
+    
+    UIImage *image = nil;
+    if (icon) {
+        image =  [OfAXHelper imageNamed:icon];
+        if (@available(iOS 13.0, *)) {
+            if (iconColor) {
+                image = [image imageWithTintColor:iconColor];
+            }
         }
     }
     [self ax_show:text image:image view:view];
@@ -105,15 +119,15 @@
 }
 
 #pragma mark 显示一些信息
-+ (MBProgressHUD *)ax_showMessage:(NSString *)message toView:(UIView *)view {
-    MBProgressHUD *hud =  [self ax_setupMBProgressHUDInView:view text:message];
++ (MBProgressHUD *)ax_showTitle:(NSString *)title toView:(UIView *)view {
+    MBProgressHUD *hud =  [self ax_setupMBProgressHUDInView:view title:title];
     return hud;
 }
 /**
  * 显示文字,不需要图片
  */
-+ (void)ax_showTitle:(NSString *)title {
-    [self ax_show:title icon:@"" iconColor:nil view:nil];
++ (void)ax_showOnlyTitle:(NSString *)title {
+    [self ax_show:title icon:nil iconColor:nil view:nil];
 }
 
 + (void)ax_showSuccess:(NSString *)success completed:(void (^)(void))completed {
@@ -125,19 +139,41 @@
         }
     });
 }
-+ (MBProgressHUD *)ax_showMessage:(NSString *)message {
-    return [self ax_showMessage:message toView:nil];
++ (MBProgressHUD *)ax_showTitle:(NSString *)title {
+    return [self ax_showTitle:title toView:nil];
 }
 
-+ (MBProgressHUD *)ax_showProgressMessage:(NSString *)message toView:(UIView *)view {
-    MBProgressHUD *hud = [self ax_showMessage:message toView:view];
++ (MBProgressHUD *)ax_showProgressTitle:(NSString *)title toView:(UIView *)view {
+    MBProgressHUD *hud = [self ax_showTitle:title toView:view];
     hud.mode = MBProgressHUDModeDeterminate;
     return hud;
 }
 
-+ (MBProgressHUD *)ax_showProgressMessage:(NSString *)message {
-    MBProgressHUD *hud = [self ax_showMessage:message];
++ (MBProgressHUD *)ax_showProgressTitle:(NSString *)title {
+    MBProgressHUD *hud = [self ax_showTitle:title];
     hud.mode = MBProgressHUDModeDeterminate;
+    return hud;
+}
+
++ (MBProgressHUD *)ax_showTitle:(NSString *)title
+                           mode:(MBProgressHUDMode )mode
+                         toView:(UIView *)view {
+    MBProgressHUD *hud = [self ax_showTitle:title toView:view];
+    hud.mode = mode;
+    return hud;
+}
+
++ (MBProgressHUD *)ax_showTitle:(NSString *)title
+                           mode:(MBProgressHUDMode )mode {
+    MBProgressHUD *hud = [self ax_showTitle:title];
+    hud.mode = mode;
+    return hud;
+}
+
++ (MBProgressHUD *)ax_showIndicator:(NSString *)title
+                             toView:(UIView *)view  {
+    MBProgressHUD *hud = [self ax_showTitle:title toView:view];
+    hud.mode = MBProgressHUDModeIndeterminate;
     return hud;
 }
 

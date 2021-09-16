@@ -7,12 +7,15 @@
 //
 
 #import "AXAppDelegate.h"
-
+@import MBProgressHUDOfAX;
 @implementation AXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [UIActivityIndicatorView appearanceWhenContainedInInstancesOfClasses:@[[MBProgressHUD class]]].color = [UIColor redColor];
+    
     return YES;
 }
 

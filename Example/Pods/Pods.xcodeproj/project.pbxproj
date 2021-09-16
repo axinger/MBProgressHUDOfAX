@@ -76,18 +76,18 @@
 /* Begin PBXFileReference section */
 		03B76F6537D1003501268D67CBF128AF /* Pods-MBProgressHUDOfAX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUDOfAX_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		04013A17355A9192971EAF5FA109BC95 /* Pods-MBProgressHUDOfAX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUDOfAX_Example.release.xcconfig"; sourceTree = "<group>"; };
-		07D8B1F884091775E8A6965A6AA4446F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07D8B1F884091775E8A6965A6AA4446F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		11D1BE9D008852D4436E9115C6976806 /* Pods-MBProgressHUDOfAX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUDOfAX_Example-dummy.m"; sourceTree = "<group>"; };
 		16FC432AFC720A1424C421ABCF112304 /* Pods-MBProgressHUDOfAX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBProgressHUDOfAX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E2D4A2FDA62609EB555560022977032 /* Pods-MBProgressHUDOfAX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUDOfAX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A63BFB3DBCAED361CE0238FCFAB7B3B /* ResourceBundle-MBProgressHUDOfAX-MBProgressHUDOfAX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBProgressHUDOfAX-MBProgressHUDOfAX-Info.plist"; sourceTree = "<group>"; };
 		2DAE0328CC284B2344D5D0F4B133C953 /* Pods-MBProgressHUDOfAX_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUDOfAX_Tests-dummy.m"; sourceTree = "<group>"; };
 		2F6416139812DFE68E86CF45F588F16D /* Pods-MBProgressHUDOfAX_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBProgressHUDOfAX_Example-frameworks.sh"; sourceTree = "<group>"; };
-		380D8D12A3685A67511B2E23D0CBE986 /* MBProgressHUDOfAX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUDOfAX.framework; path = MBProgressHUDOfAX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		380D8D12A3685A67511B2E23D0CBE986 /* MBProgressHUDOfAX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUDOfAX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A966202C2EFF7648274FC5624366D2C /* OfAXHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OfAXHelper.m; path = MBProgressHUDOfAX/Classes/OfAXHelper.m; sourceTree = "<group>"; };
-		4E05D645542D66B2C8682CB6A30E2B66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E05D645542D66B2C8682CB6A30E2B66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E0F0D2C110C781E51ED791279D2F2F0 /* MBProgressHUDOfAX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUDOfAX.release.xcconfig; sourceTree = "<group>"; };
-		4EB2A5C2243F09C52C5AF0F4F3305F2A /* Pods_MBProgressHUDOfAX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBProgressHUDOfAX_Tests.framework; path = "Pods-MBProgressHUDOfAX_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB2A5C2243F09C52C5AF0F4F3305F2A /* Pods_MBProgressHUDOfAX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBProgressHUDOfAX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		539B8FDBAC09CD817AD488CFB6AB0186 /* Image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = MBProgressHUDOfAX/Assets/Image.xcassets; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5F0482562AAD0EC7CD7301ECA1158D14 /* Pods-MBProgressHUDOfAX_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBProgressHUDOfAX_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		60354968B5893370C3C2BBAFDF3532A3 /* MBProgressHUDOfAX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MBProgressHUDOfAX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60354968B5893370C3C2BBAFDF3532A3 /* MBProgressHUDOfAX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MBProgressHUDOfAX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6448C15A9E835C8C35FB20A7104765A2 /* Pods-MBProgressHUDOfAX_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBProgressHUDOfAX_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		6BCE2D15EAADD8E7358A08C13910DD9D /* MBProgressHUDOfAX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUDOfAX.modulemap; sourceTree = "<group>"; };
@@ -107,11 +107,11 @@
 		8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		849BB7A3840A4E4F2A1C742E861E2244 /* OfAXHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OfAXHelper.h; path = MBProgressHUDOfAX/Classes/OfAXHelper.h; sourceTree = "<group>"; };
 		8794B0BB1DE3894EEA1442A881539C70 /* Pods-MBProgressHUDOfAX_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBProgressHUDOfAX_Example-umbrella.h"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3171516F2D22074B183DA40EBE7FAC /* Pods-MBProgressHUDOfAX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBProgressHUDOfAX_Example.modulemap"; sourceTree = "<group>"; };
 		8E070DB39DBB3F5BABBAA4CC518C2159 /* Pods-MBProgressHUDOfAX_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBProgressHUDOfAX_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9CA00C7D25CE2FBB16A7EFABCBA7E361 /* Pods_MBProgressHUDOfAX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBProgressHUDOfAX_Example.framework; path = "Pods-MBProgressHUDOfAX_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CA00C7D25CE2FBB16A7EFABCBA7E361 /* Pods_MBProgressHUDOfAX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBProgressHUDOfAX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A25730C5A64C6C89BA355D26736969 /* MBProgressHUDOfAX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUDOfAX-dummy.m"; sourceTree = "<group>"; };
 		AD36F304B83E9E3D51B905DD70D6BA48 /* Pods-MBProgressHUDOfAX_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBProgressHUDOfAX_Example-Info.plist"; sourceTree = "<group>"; };
 		AF80087127BED750D89D4D66F59B7B2F /* MBProgressHUD+OfAX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+OfAX.h"; path = "MBProgressHUDOfAX/Classes/MBProgressHUD+OfAX.h"; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		F058E14AF191A23212E86A72C16894BD /* Pods-MBProgressHUDOfAX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUDOfAX_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		F1D1F3DF14054494FA172299FFA9984C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		F5F6EA05BC511A18F6742153224AE4AC /* MBProgressHUDOfAX.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MBProgressHUDOfAX.bundle; path = "MBProgressHUDOfAX-MBProgressHUDOfAX.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F6EA05BC511A18F6742153224AE4AC /* MBProgressHUDOfAX.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBProgressHUDOfAX.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -273,7 +273,6 @@
 				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
 				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -492,7 +491,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -643,7 +642,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBProgressHUDOfAX";
 				IBSC_MODULE = MBProgressHUDOfAX;
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUDOfAX/ResourceBundle-MBProgressHUDOfAX-MBProgressHUDOfAX-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MBProgressHUDOfAX;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -667,7 +666,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Tests/Pods-MBProgressHUDOfAX_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Tests/Pods-MBProgressHUDOfAX_Tests.modulemap";
@@ -738,7 +737,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -758,7 +757,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBProgressHUDOfAX";
 				IBSC_MODULE = MBProgressHUDOfAX;
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUDOfAX/ResourceBundle-MBProgressHUDOfAX-MBProgressHUDOfAX-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MBProgressHUDOfAX;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -782,7 +781,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = MBProgressHUD;
@@ -812,7 +811,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Example/Pods-MBProgressHUDOfAX_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Example/Pods-MBProgressHUDOfAX_Example.modulemap";
@@ -844,7 +843,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Tests/Pods-MBProgressHUDOfAX_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Tests/Pods-MBProgressHUDOfAX_Tests.modulemap";
@@ -876,7 +875,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = MBProgressHUD;
@@ -907,7 +906,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Example/Pods-MBProgressHUDOfAX_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MBProgressHUDOfAX_Example/Pods-MBProgressHUDOfAX_Example.modulemap";
@@ -940,7 +939,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUDOfAX/MBProgressHUDOfAX-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUDOfAX/MBProgressHUDOfAX-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MBProgressHUDOfAX/MBProgressHUDOfAX.modulemap";
 				PRODUCT_MODULE_NAME = MBProgressHUDOfAX;
@@ -1006,13 +1005,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1033,7 +1031,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUDOfAX/MBProgressHUDOfAX-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUDOfAX/MBProgressHUDOfAX-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MBProgressHUDOfAX/MBProgressHUDOfAX.modulemap";
 				PRODUCT_MODULE_NAME = MBProgressHUDOfAX;

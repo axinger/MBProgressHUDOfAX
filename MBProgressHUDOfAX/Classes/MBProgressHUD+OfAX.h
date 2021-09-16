@@ -16,7 +16,7 @@
  @param message 字符串
  @return MBProgressHUD
  */
-+ (MBProgressHUD *)ax_showMessage:(NSString *)message;
++ (MBProgressHUD *)ax_showTitle:(NSString *)message;
 
 /**
  显示菊花控件和文字 显示在toView中,不会自动消失
@@ -25,7 +25,7 @@
  @param view view
  @return MBProgressHUD
  */
-+ (MBProgressHUD *)ax_showMessage:(NSString *)message toView:(UIView *)view;
++ (MBProgressHUD *)ax_showTitle:(NSString *)message toView:(UIView *)view;
 
 /**
  显示进度 控制 progress 显示在window中,不会自动消失
@@ -33,7 +33,7 @@
  @param message 字符串
  @return MBProgressHUD
  */
-+ (MBProgressHUD *)ax_showProgressMessage:(NSString *)message;
++ (MBProgressHUD *)ax_showProgressTitle:(NSString *)message;
 
 /**
  显示进度 控制 progress 显示在toView中,不会自动消失
@@ -42,7 +42,7 @@
  @param view toView
  @return MBProgressHUD
  */
-+ (MBProgressHUD *)ax_showProgressMessage:(NSString *)message toView:(UIView *)view;
++ (MBProgressHUD *)ax_showProgressTitle:(NSString *)message toView:(UIView *)view;
 
 /**
  显示含有 ✅ 成功图片 显示在window中,会自动消失
@@ -89,6 +89,19 @@
  */
 + (void)ax_showWarning:(NSString *)warning toView:(UIView *)view;
 
++ (MBProgressHUD *)ax_showTitle:(NSString *)message
+                             mode:(MBProgressHUDMode )mode
+                           toView:(UIView *)view;
+
++ (MBProgressHUD *)ax_showTitle:(NSString *)message
+                             mode:(MBProgressHUDMode )mode;
+
+
+/// 显示菊花 和 文字
+/// @param message 文字
+/// @param view view
++ (MBProgressHUD *)ax_showIndicator:(NSString *)message
+                             toView:(UIView *)view;
 /**
   隐藏  window中的
  */
@@ -114,7 +127,7 @@
 
  @param title title
  */
-+ (void)ax_showTitle:(NSString *)title;
++ (void)ax_showOnlyTitle:(NSString *)title;
 
 /**
  显示自定义view 作为指示器

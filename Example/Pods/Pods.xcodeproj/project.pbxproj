@@ -80,6 +80,7 @@
 		11D1BE9D008852D4436E9115C6976806 /* Pods-MBProgressHUDOfAX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUDOfAX_Example-dummy.m"; sourceTree = "<group>"; };
 		16FC432AFC720A1424C421ABCF112304 /* Pods-MBProgressHUDOfAX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBProgressHUDOfAX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E2D4A2FDA62609EB555560022977032 /* Pods-MBProgressHUDOfAX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUDOfAX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2125AB4C26FDCE550005EA66 /* MBProgressHUDOfAX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBProgressHUDOfAX.h; path = MBProgressHUDOfAX/MBProgressHUDOfAX.h; sourceTree = "<group>"; };
 		2A63BFB3DBCAED361CE0238FCFAB7B3B /* ResourceBundle-MBProgressHUDOfAX-MBProgressHUDOfAX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBProgressHUDOfAX-MBProgressHUDOfAX-Info.plist"; sourceTree = "<group>"; };
 		2DAE0328CC284B2344D5D0F4B133C953 /* Pods-MBProgressHUDOfAX_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUDOfAX_Tests-dummy.m"; sourceTree = "<group>"; };
 		2F6416139812DFE68E86CF45F588F16D /* Pods-MBProgressHUDOfAX_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBProgressHUDOfAX_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -216,6 +217,7 @@
 				E6736D33DF992A00EDDB5F78A44A4F20 /* UIView+OfAX.m */,
 				090CD748D45AF3578E4AEF0842738048 /* Pod */,
 				994E0CA581CA76B0AD427980DF084009 /* Support Files */,
+				2125AB4C26FDCE550005EA66 /* MBProgressHUDOfAX.h */,
 			);
 			name = MBProgressHUDOfAX;
 			path = ../..;

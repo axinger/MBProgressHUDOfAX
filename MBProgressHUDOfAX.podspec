@@ -30,7 +30,10 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.0'
   
-  s.public_header_files = 'MBProgressHUDOfAX/Classes/**/*.h'
+#  s.public_header_files = 'MBProgressHUDOfAX/Classes/**/*.h'
+  
+  s.public_header_files = 'MBProgressHUDOfAX/MBProgressHUDOfAX.h'
+  
   s.source_files = 'MBProgressHUDOfAX/Classes/**/*'
   
   s.resource_bundles = {
